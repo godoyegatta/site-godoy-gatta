@@ -530,6 +530,11 @@ h1 em, h2 em { font-style: normal; color: var(--ferrugem); }
   .galeria img { transition: transform .4s ease; }
 }
 
+/* Crédito do fotógrafo no rodapé */
+.rodape-base { align-items: center; }
+.credito-foto { font-size: .82rem; }
+.credito-foto strong { font-weight: 600; }
+
 </style>
 </head>
 <body>
@@ -537,7 +542,7 @@ h1 em, h2 em { font-style: normal; color: var(--ferrugem); }
 <!-- ============ CABEÇALHO ============ -->
 <header class="topo" id="topo">
   <a href="#inicio" class="marca" aria-label="Início">
-    <img src="logo.png" alt="Godoy &amp; Gatta" class="logo" width="560" height="340">
+    <img src="logo.png" alt="Godoy &amp; Gatta" class="logo" width="420" height="259">
   </a>
   <nav class="menu" id="menu" aria-label="Principal">
     <a href="#sobre">Quem somos</a>
@@ -834,7 +839,7 @@ h1 em, h2 em { font-style: normal; color: var(--ferrugem); }
 <!-- ============ RODAPÉ ============ -->
 <footer class="rodape">
   <div class="rodape-col">
-    <img src="logo-clara.png" alt="Godoy &amp; Gatta" class="logo" width="560" height="344" loading="lazy">
+    <img src="logo-clara.png" alt="Godoy &amp; Gatta" class="logo" width="420" height="259" loading="lazy">
     <p>Arquitetura e interiores</p>
   </div>
   <div class="rodape-col">
@@ -849,6 +854,7 @@ h1 em, h2 em { font-style: normal; color: var(--ferrugem); }
   </div>
   <div class="rodape-base">
     <p>&copy; <span id="ano"></span> Godoy &amp; Gatta Arquitetura e Interiores</p>
+    <p class="credito-foto">Fotografias dos projetos: <strong>Ricardo Migliorini</strong></p>
     <p><a href="politica-de-privacidade.html">Política de Privacidade</a></p>
   </div>
 </footer>
